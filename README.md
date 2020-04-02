@@ -112,16 +112,8 @@ platform :ios, '9.0'
 use_frameworks!
 
 target 'MyApp' do
-  pod 'CodableFirebase'
+  pod 'CodableFirebase/Pistrol'
 end
 ```
 
 Note that this requires CocoaPods version 36, and your iOS deployment target to be at least 9.0:
-
-### Carthage (iOS 9+)
-
-You can use Carthage to install CodableFirebase by adding it to your Cartfile:
-
-```swift
-github "alickbass/CodableFirebase"
-```
