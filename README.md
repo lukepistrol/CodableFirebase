@@ -112,7 +112,7 @@ platform :ios, '9.0'
 use_frameworks!
 
 target 'MyApp' do
-  pod 'CodableFirebase/Pistrol'
+  pod 'CodableFirebase', :git => 'https://github.com/lukepistrol/CodableFirebase.git'
 end
 ```
 
